@@ -1,0 +1,44 @@
+body {
+  background-color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+
+  color: black;
+  padding: 30px;
+  align-items: center;
+  margin: 10px 200px;
+}
+
+.question {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+label {
+  width: 250px;
+}
+
+h1 {
+  text-align: center;
+}
+
+span {
+  position: absolute;
+  width: 250px;
+  left: 250px;
+  top: 22px;
+  color: red;
+}
+
+input:invalid {
+  background-color: rgba(255, 0, 0, 0.37);
+}
+
+input:valid {
+  background-color: rgba(0, 128, 0, 0.411);
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="scripts.js" defer></script>
+    <title>Form Validation Exercise</title>
+  </head>
+  <body>
+    <h1>Form</h1>
+    <form novalidate>
+      <div class="question">
+        <label for="email"> Email </label>
+        <input type="email" id="email" />
+        <span class="email"></span>
+      </div>
+      <div class="question">
+        <label for="country"> Country</label>
+        <input type="text" id="country" />
+        <span class="country"></span>
+      </div>
+      <div class="question">
+        <label for="zipcode"> ZIP code </label>
+        <input type="number" id="zipcode" />
+        <span class="zipcode"></span>
+      </div>
+      <div class="question">
+        <label for="password"> Password </label>
+        <input type="password" id="password" />
+        <span class="password"></span>
+      </div>
+      <div class="question">
+        <label for="passwordConfirmation"> Password Confirmation </label>
+        <input type="password" id="passwordConfirmation" />
+        <span class="passwordConfirmation"></span>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
